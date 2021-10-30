@@ -22,6 +22,15 @@ body {
 img{
   max-width: 100%;
 }
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
 .tree {
 	width: 100%;
 	height: auto;
