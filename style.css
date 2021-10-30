@@ -3,34 +3,22 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-
-
-
-}
-html, body{
-  width: 1390px;
- height: 2048px;
-
-  /* For Mobile */
-  @media screen and (max-width: 540px) {
-      .view {
-          width: 400px;
-      }
-  }
-
-  /* For Tablets */
-  @media screen and (min-width: 540px) and (max-width: 780px) {
-      .view {
-          width: 600px;
-      }
-  }
+  max-width: 100%;
 
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      background: #999;
+      width: 100%;
+    }
+  }
 
-body {
+
+body{
   overflow: auto !important;
   height: 100%;
- width: 100%;
+  width: 100%;
+  max-width: 100%;
   background-color: #8E05C2;
 	height: 100vh;
 	display: grid;
