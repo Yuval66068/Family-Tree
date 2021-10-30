@@ -19,18 +19,14 @@ body {
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
 }
-img{
-  max-width: 100%;
+
+
+.container{
+  width: 90%;
+   min-width: 500px;
+   margin: auto;
 }
-.WebContainer{
-    width: 100%;
-    height: auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
+
 .tree {
 	width: 100%;
 	height: auto;
