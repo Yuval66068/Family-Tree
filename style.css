@@ -8,11 +8,16 @@
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-      background: #999;
-      width: 100%;
+      border: 5px solid darkblue;
+  min-height: 150px;
+  width: 200px;
     }
   }
 
+.row{
+  width: 100%;
+  height: 100%;
+}
 
 body, html{
   background-color: #700B97;
@@ -23,6 +28,8 @@ body, html{
      right:0;
      width:100%;
    height:100%;
+   text-align: center;
+    overflow: hidden;
 }
 
 #body {
@@ -32,10 +39,9 @@ height: 100%;
 
 
 .container{
-  width: inherit;
-  height: inherit;
-  margin: 0;
-  padding: 0;
+  height:600px;
+  width:100%;
+  float:left;
 }
 
 .tree {
